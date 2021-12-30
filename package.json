@@ -21,6 +21,7 @@
     "gatsby-plugin-postcss": "^5.4.0",
     "postcss": "^8.4.5",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "tone": "^14.7.77"
   }
 }
