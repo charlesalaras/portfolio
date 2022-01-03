@@ -1,0 +1,28 @@
+body {
+    background-color: #1A1A1A;    
+}
+.hello {
+    fill: #FFFFFF;
+}
+.hello:hover {
+    fill: #BBBBBB;
+}
+/* FIXME: Needs to be done through react */
+._h:focus {
+    fill: #FF7276 !important;
+}
+._e:focus {
+    fill: #FFAA4D !important;
+}
+._l1:focus {
+    fill: #FFE900 !important;
+}
+._l2:focus {
+    fill: #44D62C !important;
+}
+._o:focus {
+    fill: #00AADA !important;
+}
+._exclam:focus {
+    fill: #EA27C2 !important;
+}
