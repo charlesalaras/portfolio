@@ -15,11 +15,15 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "bootstrap-icons": "^1.7.2",
     "framer-motion": "^5.5.5",
     "gatsby": "^4.4.0",
+    "gatsby-image": "^3.11.0",
     "gatsby-plugin-postcss": "^5.4.0",
+    "gatsby-plugin-sharp": "^4.5.1",
     "gatsby-plugin-typescript": "^4.4.0",
+    "gatsby-source-filesystem": "^4.5.1",
+    "gatsby-transformer-json": "^4.5.0",
+    "gatsby-transformer-sharp": "^4.5.0",
     "postcss": "^8.4.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
