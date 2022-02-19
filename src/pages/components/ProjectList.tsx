@@ -1,11 +1,15 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useProjectData } from "../hooks/project-data";
 
 type ProjectsProps = {
+    // Sets the selected project (if any)
     updater: (arg1: string) => void,
+    // Gives the filter for rendering
     value: { [key: string]: boolean },
-    param: string
+    // Gives the search parameter
+    param: string,
+    // Gives array of projects
+    data: any // Define this better
 }
 
 type ListElement = {
@@ -13,9 +17,8 @@ type ListElement = {
 }
 
 export default function ProjectList(props: ProjectsProps): JSX.Element {
-    const { data } = useProjectData();
     // If Filters Enabled, Filter Data
-    const arr = (data.edges).filter(calculateFilter);
+    const arr = (props.data).filter(calculateFilter);
     // Checks if Project should be displayed
     function calculateFilter(arrElement: ListElement): boolean {
         // Are all filters true or false?
@@ -30,22 +33,6 @@ export default function ProjectList(props: ProjectsProps): JSX.Element {
         }
         return false;
     }
-/*
-    const calculateCategory = (category: string) => {
-        // Is Every Element the Same?
-
-        const allEqual = (arr: boolean[]) => arr.every(v => v === arr[0]);
-        if(allEqual(Object.values(props.value))) {
-            return true;
-        }
-        // Is the Lone the Same?
-        else if(props.value[category]) {
-            return true;
-        }
-        // None Are the Same
-        return false;
-    }
-*/
     return(
         <div className="empty">
             <AnimatePresence>

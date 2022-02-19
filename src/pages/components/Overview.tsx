@@ -1,23 +1,22 @@
 import { useState } from "react";
-import { useProjectData } from "../hooks/project-data";
-import Slideshow from "./Media";
-import Video from "./Media";
+import {Slideshow} from "./Media";
+import {Video} from "./Media";
 
 interface OVProps {
-   view: string 
+   view: any,
+   open: boolean,
+   updater: (arg1: string) => void
 }
-
+// FIXME: Just grab the GraphQL node, no need to re-query
 export default function Overview(props: OVProps): JSX.Element {
-    const { data } = useProjectData();
-    const selection = data.filter(obj => (obj.node.title === props.view));
 
     const renderMedia = () => {
-        const mediaType = selection[0].node.media.type;
+        const mediaType = props.view.media.type;
         if(mediaType == 'slideshow') {
-            return <Slideshow content={selection[0].node.media.content}></Slideshow>;
+            return <Slideshow content={props.view.media.content}></Slideshow>;
         }
         else if(mediaType == 'video') {
-            return <Video content={selection[0].node.media.content}></Video>;
+            return <Video content={props.view.media.content}></Video>;
         }
         return null;
     }
@@ -28,7 +27,8 @@ export default function Overview(props: OVProps): JSX.Element {
                 <div className="blank">
                     Select a project to view.
                 </div> :
-                <div className={selection[0].node.category}>
+                <div className={props.view.node.category}>
+                    {renderMedia}
                 </div>
             }
         </div>
