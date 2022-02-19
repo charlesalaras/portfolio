@@ -1,8 +1,10 @@
+import * as React from "react";
 import { useState } from "react";
 import Filter from "./components/Filter";
 import ProjectList from "./components/ProjectList";
 import Overview from "./components/Overview";
 import { useStaticQuery, graphql } from "gatsby";
+
 
 export default function Projects(): JSX.Element {
     const [filter, setFilter] = useState({
@@ -14,22 +16,40 @@ export default function Projects(): JSX.Element {
         'woodworking': false,
         'hardware': false
     });
-    const { data } = useStaticQuery(graphql`
-        query MyQuery {
-            allDataJson {
-                edges {
-                    node {
-                        byline
-                        category
-                        date
-                        slug
-                        title
-                    }
-                }
-            }
+    const data = useStaticQuery(graphql`
+query MyQuery {
+  allDataJson {
+    edges {
+      node {
+        title
+        slug
+        description
+        date
+        category
+        byline
+        tools {
+          icon
+          name
         }
-    `)
-;
+        notes {
+          note
+          icon
+        }
+        media {
+          static
+          preview
+          link
+          main {
+            content
+            type
+          }
+        }
+      }
+    }
+  }
+} 
+    `);
+
     const [search, setSearch] = useState("");
     const [selection, setSelection] = useState("");
     
@@ -56,10 +76,10 @@ export default function Projects(): JSX.Element {
             updater={handleSelection} 
             value={filter} 
             param={search} 
-            data={ data.edges }
+            data={ data.allDataJson.edges }
         />
         <Overview 
-            view={ data.edges.find(o => o.slug === selection) }
+            view={ data.allDataJson.edges.find((o: any) => o.node.slug === selection) }
             open={selection != ""}
             updater={handleSelection}
         />

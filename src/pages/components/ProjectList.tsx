@@ -1,3 +1,4 @@
+import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -42,6 +43,7 @@ export default function ProjectList(props: ProjectsProps): JSX.Element {
                     key={project.node.slug}
                     onClick={() => props.updater(project.node.slug)}
                 >
+                {project.node.title}
                 </motion.div>
             ))}
             </AnimatePresence>
