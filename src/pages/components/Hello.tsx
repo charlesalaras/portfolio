@@ -1,8 +1,6 @@
-// FIXME: Cannot find the files referenced, sampler doesn't work because buffer is not set
-// Potentially: useEffect + useRef on sampler.
-
 import React, { useState, useEffect, useRef, Fragment } from "react";
 import * as Tone from "tone";
+import Secret from "./Secret"
 
 import G4 from "../../assets/G.wav";
 import A4 from "../../assets/A.wav";
@@ -16,7 +14,6 @@ export default function Hello(): JSX.Element {
     const passcode = ***REMOVED***;
     const [unlock, setLock] = useState(false);
     const [currIndex, setIndex] = useState(0);
-    const [isLoaded, setLoaded] = useState(false);
     const [currLetter, setLetter] = useState(-1);
     const sampler = useRef(null);
 
@@ -44,7 +41,12 @@ export default function Hello(): JSX.Element {
         else {
             setIndex(0);
             setLock(false);
+            // To Be Used In The Future...
+            localStorage.setItem('room', 'true');
         }
+    }
+    function closeSecret(): void {
+        setLock(true)
     }
     return(
         <Fragment>
@@ -93,7 +95,7 @@ export default function Hello(): JSX.Element {
         />
     </svg>
     <br></br>
-    {unlock ? <h1>Unlocked!</h1> : <div></div>}
+    {unlock ? <Secret updater={closeSecret}/> : null}
     </Fragment>
     );
 }
