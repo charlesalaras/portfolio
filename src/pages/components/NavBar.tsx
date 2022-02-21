@@ -27,11 +27,11 @@ export default function NavBar() {
                         }
                     </button>
                 </div>
-                <img src={house}></img> 
-                <img src={house}></img>
-                <img src={house}></img>
-                <img src={house}></img>
-                <img src={house}></img>
+                <img className={scrollPos == 1 ? "nav-active" : "nav"} src={house}></img> 
+                <img className={scrollPos == 2 ? "nav-active" : "nav"} src={info}></img>
+                <img className={scrollPos == 3 ? "nav-active" : "nav"} src={kanban}></img>
+                <img className={scrollPos == 4 ? "nav-active" : "nav"} src={contact}></img>
+                <img className={scrollPos == 5 ? "nav-active" : "nav"} src={stars}></img>
             </div>
             {listPopout && (<Popout></Popout>)}
         </Fragment>
