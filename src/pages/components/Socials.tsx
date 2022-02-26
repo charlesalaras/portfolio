@@ -4,7 +4,7 @@ import linkedin from "./icons/bi/linkedin.svg";
 import github from "./icons/bi/github.svg";
 import chat from "./icons/bi/chat-left-text-fill.svg";
 // FIXME: Insert Blog Domain
-export default function Socials() {
+export default function Socials(): JSX.Element {
     return(
         <div className="socials">
                 <motion.a 
