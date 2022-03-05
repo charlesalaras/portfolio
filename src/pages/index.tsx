@@ -1,8 +1,8 @@
 import * as React from "react"
-import "./styles.css"
+import * as styles from "../styles/styles.css"
 
-import NavBar from "./components/NavBar";
-import Socials from "./components/Socials";
+import NavBar from "../components/NavBar";
+import Socials from "../components/Socials";
 
 import Landing from "./Landing";
 import About from "./About";

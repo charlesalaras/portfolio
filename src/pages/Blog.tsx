@@ -1,7 +1,7 @@
 export {}
 /*
-import BlogOverview from "./components/BlogOverview";
-import BlogPost from "./components/BlogPost";
+import BlogOverview from "../components/BlogOverview";
+import BlogPost from "../components/BlogPost";
 import { graphql } from "gatsby";
 
 // FIXME: Add Props

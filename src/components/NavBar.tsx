@@ -8,7 +8,7 @@ import stars from "./icons/bi/list-stars.svg";
 import x from "./icons/bi/x.svg";
 import list from "./icons/bi/list.svg";
 
-// FIXME: Change Bootstrap Icons to be SVGs
+// FIXME: ScrollPos handled by App()
 export default function NavBar() {
     const[scrollPos, setScrollPos] = useState(1);
     const[listPopout, setPopout] = useState(false);

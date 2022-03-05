@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
+import * as styles from "../styles/404.module.css";
 // styles
 const pageStyles = {
   color: "#232129",

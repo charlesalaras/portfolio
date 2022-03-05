@@ -1,5 +1,6 @@
-import Hello from "./components/Hello";
+import Hello from "../components/Hello";
 import { motion } from "framer-motion";
+import * as styles from "../styles/landing.module.css";
 
 export default function Landing(): JSX.Element {
     const text1 = "I'm";
