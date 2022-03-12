@@ -3,3 +3,7 @@ node_modules/
 src/data/
 src/icons/
 public
+*.svg
+*.woff
+*.mp3
+src/components/Secret.tsx

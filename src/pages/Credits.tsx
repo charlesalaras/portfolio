@@ -1,5 +1,6 @@
+import * as React from "react";
 import { motion } from "framer-motion";
-import * as styles from "../styles/credits.module.css";
+import "../styles/credits.css";
 
 export default function Credits(): JSX.Element {
     return(

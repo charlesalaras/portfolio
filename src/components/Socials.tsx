@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import {motion} from "framer-motion";
-import linkedin from "./icons/bi/linkedin.svg";
-import github from "./icons/bi/github.svg";
-import chat from "./icons/bi/chat-left-text-fill.svg";
+import linkedin from "../icons/bi/linkedin.svg";
+import github from "../icons/bi/github.svg";
+import chat from "../icons/bi/chat-left-text-fill.svg";
 // FIXME: Insert Blog Domain / 404
 export default function Socials(): JSX.Element {
     return(

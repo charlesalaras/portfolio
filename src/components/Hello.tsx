@@ -2,12 +2,12 @@ import React, { useState, useEffect, useRef, Fragment } from "react";
 import * as Tone from "tone";
 import Secret from "./Secret"
 
-import G4 from "../../assets/G.wav";
-import A4 from "../../assets/A.wav";
-import B4 from "../../assets/B.wav";
-import C5 from "../../assets/Csharp.wav";
-import E5 from "../../assets/E.wav";
-import F5 from "../../assets/Fsharp.wav";
+import G4 from "../assets/G.wav";
+import A4 from "../assets/A.wav";
+import B4 from "../assets/B.wav";
+import C5 from "../assets/Csharp.wav";
+import E5 from "../assets/E.wav";
+import F5 from "../assets/Fsharp.wav";
 
 
 export default function Hello(): JSX.Element {

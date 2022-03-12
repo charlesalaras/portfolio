@@ -1,6 +1,27 @@
-body {
-    background-color: #1A1A1A;    
+/* Root Styling */
+@font-face {
+    font-family: "Concourse C6";
+    src: url("./concourse_c6_regular.woff");
 }
-.hello:hover {
-    fill: #BBBBBB;
+@font-face {
+    font-family: "Concourse T6";
+    src: url("./concourse_t6_regular.woff");
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #00;
+    height: 100vh;
+    width: 100vw;
+}
+* {
+    box-sizing: border-box;
+}
+.section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./test3.svg");
 }

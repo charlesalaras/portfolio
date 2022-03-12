@@ -1,12 +1,13 @@
+import * as React from "react";
 import Hello from "../components/Hello";
 import { motion } from "framer-motion";
-import * as styles from "../styles/landing.module.css";
+import "../styles/landing.css";
 
 export default function Landing(): JSX.Element {
     const text1 = "I'm";
     const name = "Charles Alaras";
     return(
-        <div className="landing">
+        <div className="landing section">
             <Hello/>
             <div className="title-1">
                 {text1}

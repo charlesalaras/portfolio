@@ -10,25 +10,39 @@ interface FilterProps {
 export default function Filter(props: FilterProps): JSX.Element { 
     return(
         <div>
-            <button onClick={() => props.updater('motion-graphics', props.value['motion-graphics'])}>
+            <button
+                className={'motion-graphics'}
+                onClick={() => props.updater('motion-graphics', props.value['motion-graphics'])}>
                 MOTION GRAPHICS
             </button>
-            <button onClick={() => props.updater('video-production', props.value['video-production'])}>
+            <button 
+                className={'video-production'}
+                onClick={() => props.updater('video-production', props.value['video-production'])}>
                 VIDEO PRODUCTION
             </button>
-            <button onClick={() => props.updater('metalworking', props.value['metalworking'])}>
+            <button 
+                className={'metalworking'}
+                onClick={() => props.updater('metalworking', props.value['metalworking'])}>
                 METALWORKING
             </button>
-            <button onClick={() => props.updater('web-dev', props.value['web-dev'])}>
+            <button 
+                className={'web-dev'}
+                onClick={() => props.updater('web-dev', props.value['web-dev'])}>
                 WEB DEV
             </button>
-            <button onClick={() => props.updater('programming', props.value['programming'])}>
+            <button 
+                className={'programming'}
+                onClick={() => props.updater('programming', props.value['programming'])}>
                 PROGRAMMING
             </button>
-            <button onClick={() => props.updater('woodworking', props.value['woodworking'])}>
+            <button 
+                className={'woodworking'}
+                onClick={() => props.updater('woodworking', props.value['woodworking'])}>
                 WOODWORKING
             </button>
-            <button onClick={() => props.updater('hardware', props.value['hardware'])}>
+            <button 
+                className={'hardware'}
+                onClick={() => props.updater('hardware', props.value['hardware'])}>
                 HARDWARE
             </button>
         </div>

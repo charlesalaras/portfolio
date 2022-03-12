@@ -4,7 +4,7 @@ import Filter from "../components/Filter";
 import ProjectList from "../components/ProjectList";
 import Overview from "../components/Overview";
 import { useStaticQuery, graphql } from "gatsby";
-import * as styles from "../styles/projects.module.css";
+import "../styles/projects.css";
 
 export default function Projects(): JSX.Element {
     const [filter, setFilter] = useState({

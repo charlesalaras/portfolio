@@ -1,5 +1,5 @@
-import * as React from "react"
-import * as styles from "../styles/styles.css"
+import * as React from "react";
+import "../styles/styles.css";
 
 import NavBar from "../components/NavBar";
 import Socials from "../components/Socials";

@@ -1,6 +1,7 @@
+import * as React from "react";
 import { motion } from "framer-motion";
 import InfoBox from "../components/InfoBox";
-import * as styles from "../styles/about.module.css";
+import "../styles/about.css";
 
 // Use StaticImage from gatsby
 

@@ -1,0 +1,49 @@
+div.motion-graphics, button.motion-graphics {
+    background-image: linear-gradient(#cb2d3e, #ef473a);
+}
+i.motion-graphics {
+    background-image: url('../icons/bi/film.svg');
+    background-repeat: no-repeat;
+}
+div.video-production, button.video-production {
+    background-image: linear-gradient(#f37335, #fdc830);
+}
+i.video-production {
+    background-image: url('../icons/bi/camera-reels-fill.svg');
+    background-repeat: no-repeat;
+}
+div.metalworking, button.metalworking {
+    background-image: linear-gradient(#ffd400, #ffe000);
+}
+i.metalwork {
+    background-image: url('../icons/bi/thermometer-high.svg');
+    background-repeat: no-repeat;
+}
+div.web-dev, button.web-dev {
+    background-image: linear-gradient(#56ab2f, #a8e063);
+}
+i.web-dev {
+    background-image: url('../icons/bi/code-square.svg');
+    background-repeat: no-repeat;
+}
+div.programming, button.programming {
+    background-image: linear-gradient(#1d61e7, #56ccf2);
+}
+i.programming {
+    background-image: url('../icons/bi/terminal-fill.svg');
+    background-repeat: no-repeat;
+}
+div.woodworking, button.woodworking {
+    background-image: linear-gradient(#6a3093, #a044ff);
+}
+i.woodworking {
+    background-image: url('../icons/bi/hammer.svg');
+    background-repeat: no-repeat;
+}
+div.hardware, button.hardware {
+    background-image: linear-gradient(#b91d73, #f953c6);
+}
+i.hardware {
+    background-image: url('../icons/bi/motherboard-fill.svg');
+    background-repeat: no-repeat;
+}
