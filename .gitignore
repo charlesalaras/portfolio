@@ -6,4 +6,5 @@ public
 *.svg
 *.woff
 *.mp3
+src/components/Hello.tsx
 src/components/Secret.tsx
