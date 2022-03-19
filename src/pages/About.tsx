@@ -7,7 +7,7 @@ import "../styles/about.css";
 
 export default function About(): JSX.Element {
     return(
-        <div className="about">
+        <div className="about section">
             <motion.div 
                 className="header">
                     {"ABOUT"}

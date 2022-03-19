@@ -61,7 +61,7 @@ query MyQuery {
     }
 
     return(
-        <div className="projects">
+        <div className="projects section">
         <div className="header">PROJECTS</div>
         <Filter updater={handleFilter} value={filter}/>
         <input 

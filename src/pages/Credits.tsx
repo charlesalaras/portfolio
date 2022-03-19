@@ -4,7 +4,7 @@ import "../styles/credits.css";
 
 export default function Credits(): JSX.Element {
     return(
-        <div className="credits">
+        <div className="credits section">
             <motion.div className="header">
                 {"CREDITS"}
             </motion.div>

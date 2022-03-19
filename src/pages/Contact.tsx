@@ -5,7 +5,7 @@ import "../styles/contact.css";
 
 export default function Contact(): JSX.Element {
     return(
-        <div className="contact">
+        <div className="contact section">
             <motion.div className="header">
                 {"CONTACT"}
             </motion.div>

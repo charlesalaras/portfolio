@@ -1,4 +1,5 @@
 import React, {useState, Fragment} from "react";
+import "./navbar.css";
 import Popout from "./Popout";
 import house from "../icons/bi/house-fill.svg";
 import info from "../icons/bi/info-circle-fill.svg";

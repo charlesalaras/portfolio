@@ -3,9 +3,11 @@ import {motion} from "framer-motion";
 import linkedin from "../icons/bi/linkedin.svg";
 import github from "../icons/bi/github.svg";
 import chat from "../icons/bi/chat-left-text-fill.svg";
+import "./socials.css";
 // FIXME: Insert Blog Domain / 404
 export default function Socials(): JSX.Element {
     return(
+        <div className="container">
         <div className="socials">
                 <motion.a 
                     className="social"
@@ -34,6 +36,7 @@ export default function Socials(): JSX.Element {
                 >
                     <img src={chat}></img>
                 </motion.a>
+        </div>
         </div>
     );
 }
