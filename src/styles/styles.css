@@ -14,20 +14,31 @@ html, body {
 }
 body {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 * {
     box-sizing: border-box;
 }
 .app {
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     top: 0px;
     left: 0px;
 }
 .section {
-    width: 100vw;
+    /* Width Account for Scrollbar */
+    width: 100%;
     height: 100vh;
     background-image: url("./background.svg");
     color: white;
+}
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 3;
+}
+.blank {
+    border: 4px solid white;
+    border-radius: 14px;
 }

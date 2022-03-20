@@ -26,13 +26,13 @@ export default function Overview(props: OVProps): JSX.Element {
     }
 
     return(
-        <div className="empty-view">
+        <div className="blank project-view">
             {props.open ?  
                 <div className={props.view.node.category}>
                     {props.view.node.title}
                     {renderMedia}
                 </div> : 
-                <div className="blank">
+                <div>
                     Select a project to view.
                 </div>
             }

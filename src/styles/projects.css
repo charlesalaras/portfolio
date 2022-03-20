@@ -47,3 +47,68 @@ i.hardware {
     background-image: url('../icons/bi/motherboard-fill.svg');
     background-repeat: no-repeat;
 }
+button {
+    height: 2em;
+    font-family: "Concourse C6";
+    color: white;
+    border: none;
+    border-radius: 1em;
+}
+.projects {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr 0.5fr 4fr;
+  gap: 1% 1%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "project-header project-header"
+    "project-filter project-filter"
+    "project-search ."
+    "project-list project-view";
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 8%;
+  padding-right: 5%;
+}
+
+.project-header { grid-area: project-header; }
+
+.project-filter { grid-area: project-filter; }
+
+.project-search {
+  justify-self: center;
+  align-self: stretch;
+  grid-area: project-search;
+  width: 100%;
+  height: 2em;
+  border-radius: 1em;
+  background-color: rgba(0,0,0,0);
+  color: white;
+}
+
+.project-list {
+  /* Grid Layout */
+  justify-self: center;
+  align-self: center;
+  grid-area: project-list;
+  width: 100%;
+  height: 100%;
+  /* Inner Properties */
+  overflow: auto;
+}
+
+.project-view {
+  justify-self: center;
+  align-self: center;
+  grid-area: project-view;
+  width: 100%;
+  height: 100%;
+}
+
+.project {
+  margin: auto;
+  margin-top: 1%;
+  width: 90%;
+  height: 6em;
+  border-radius: 1em;
+  padding-left: 1%;
+}

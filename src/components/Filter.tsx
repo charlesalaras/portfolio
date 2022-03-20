@@ -1,7 +1,6 @@
 import * as React from "react";
 import { useState } from "react";
 
-
 interface FilterProps {
     updater: (arg1: string, arg2: boolean) => void,
     value: { [key: string]: boolean; }
@@ -9,10 +8,11 @@ interface FilterProps {
 
 export default function Filter(props: FilterProps): JSX.Element { 
     return(
-        <div>
+        <div className="project-filter">
             <button
                 className={'motion-graphics'}
                 onClick={() => props.updater('motion-graphics', props.value['motion-graphics'])}>
+                <i className='motion-graphics'></i>
                 MOTION GRAPHICS
             </button>
             <button 

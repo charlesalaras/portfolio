@@ -35,11 +35,11 @@ export default function ProjectList(props: ProjectsProps): JSX.Element {
         return false;
     }
     return(
-        <div className="empty">
+        <div className="blank project-list">
             <AnimatePresence>
             {arr.map((project: ListElement) => (
                 <motion.div
-                    className={`${project.node.category}`}
+                    className={`project ${project.node.category}`}
                     key={project.node.slug}
                     onClick={() => props.updater(project.node.slug)}
                 >

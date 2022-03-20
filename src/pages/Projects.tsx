@@ -62,11 +62,11 @@ query MyQuery {
 
     return(
         <div className="projects section">
-        <div className="header">PROJECTS</div>
+        <div className="project-heading header">PROJECTS</div>
         <Filter updater={handleFilter} value={filter}/>
         <input 
             type="text" 
-            className="search-bar" 
+            className="project-search" 
             autoComplete="off" 
             placeholder="Search" 
             value={search} 
