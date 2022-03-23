@@ -36,6 +36,7 @@ export default function ProjectList(props: ProjectsProps): JSX.Element {
     }
     return(
         <div className="blank project-list">
+            <div className="inset">
             <AnimatePresence>
             {arr.map((project: ListElement) => (
                 <motion.div
@@ -48,6 +49,7 @@ export default function ProjectList(props: ProjectsProps): JSX.Element {
                 </motion.div>
             ))}
             </AnimatePresence>
+            </div>
         </div>
     )
 }

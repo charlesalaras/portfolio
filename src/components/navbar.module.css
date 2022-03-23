@@ -1,3 +1,7 @@
+.bi_nav {
+    width: 60%;
+    height: auto;
+}
 .navbar {
     /* Positioning / Coloring */
     position: fixed;
@@ -9,10 +13,14 @@
     /* Flex Attributes */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    /* Padding Adjustments */
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    z-index: 5;
 }
-.under-button {
+.underbutton {
     display: flex;
     align-items: center;
     /* Positioning Things */

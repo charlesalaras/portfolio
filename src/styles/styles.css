@@ -17,7 +17,18 @@ body {
     width: 100%;
 }
 * {
+    color: white;
     box-sizing: border-box;
+    scrollbar-color: #FFFFFF #1A1A1A;
+    scrollbar-width: thin;
+}
+*::-webkit-scrollbar {
+    background-color: #1A1A1A;
+}
+*::-webkit-scrollbar-thumb {
+    border: 4px solid #1A1A1A;
+    border-radius: 10px;
+    background-color: white;
 }
 .app {
     width: 100%;
@@ -25,17 +36,24 @@ body {
     top: 0px;
     left: 0px;
 }
+.header {
+    font-family: "Concourse C6";
+    font-size: 8em;
+}
 .section {
     /* Width Account for Scrollbar */
     width: 100%;
     height: 100vh;
-    background-image: url("./background.svg");
-    color: white;
+    background-image: url("./background1.svg");
+    background-size: contain;
 }
 .overlay {
     width: 100%;
     height: 100vh;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.75);
+    position: fixed;
+    top: 0px;
+    left: 0px;
     z-index: 3;
 }
 .blank {

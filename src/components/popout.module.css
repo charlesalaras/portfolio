@@ -1,0 +1,22 @@
+.popout {
+    /* Positioning */
+    z-index: 4;
+    position: fixed;
+    top: 0px;
+    left: 5%;
+    height: 100vh;
+    /* Styling */
+    background-color: #003CFF;
+    border-top-right-radius: 30vh;
+    border-bottom-right-radius: 30vh;
+    font-family: "Concourse C6";
+    font-size: 2.5em;
+    list-style-type: none;
+    /* Inner */
+    text-indent: 2.5vw;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
