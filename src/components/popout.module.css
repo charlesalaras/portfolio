@@ -20,3 +20,11 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+li {
+    width: 90%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.selected {
+    background-color: #1A4FFF;
+}

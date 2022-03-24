@@ -2,8 +2,11 @@ import React, { useState, Fragment } from "react";
 import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
 import * as styles from "./popout.module.css";
 
-//FIXME: Pass Scroll Position for Usage
-export default function Popout() {
+interface PopoutProps {
+    section: number
+}
+
+export default function Popout(props: PopoutProps): JSX.Element {
     const sections = ["HOME", "ABOUT", "PROJECTS", "CONTACT", "CREDITS"];
     return(
         <Fragment>
@@ -17,7 +20,7 @@ export default function Popout() {
                         {sections.map((section) => (
                             <motion.li
                                 key={section}
-                                className="popout-list"
+                                className={sections[props.section - 1] == section ? `${styles.selected}` : ""}
                                 onClick={() => console.log("Change Section!")}
                                 layout
                             >
