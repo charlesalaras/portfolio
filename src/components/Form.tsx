@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Form(): JSX.Element {
     return(
-        <motion.div className='center'>
+        <motion.div className="form">
             <form >
                 <label htmlFor="name">Full Name:</label>
                     <input type="text" id="name" name="name" placeholder="Full Name"/>
