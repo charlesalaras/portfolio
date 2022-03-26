@@ -1,13 +1,22 @@
 import * as React from "react";
+import {useEffect, useRef} from "react";
 import { motion } from "framer-motion";
 import InfoBox from "../components/InfoBox";
 import "../styles/about.css";
 
 // Use StaticImage from gatsby
-
-export default function About(): JSX.Element {
+interface sectionProps {
+    section: number
+}
+export default function About(props: sectionProps): JSX.Element {
+    const aboutRef = useRef() as React.MutableRefObject<HTMLDivElement>;
+    useEffect(() => {
+        if(props.section === 2) {
+            aboutRef.current.scrollIntoView({ behavior: "smooth" });
+        }
+    },[props.section]);
     return(
-        <div className="about section">
+        <div ref={aboutRef} className="about section">
             <motion.div 
                 className="header">
                     {"ABOUT"}

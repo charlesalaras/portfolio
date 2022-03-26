@@ -3,11 +3,18 @@ import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
 import * as styles from "./popout.module.css";
 
 interface PopoutProps {
-    section: number
+    realSection: number,
+    navFunc: any
 }
 
 export default function Popout(props: PopoutProps): JSX.Element {
-    const sections = ["HOME", "ABOUT", "PROJECTS", "CONTACT", "CREDITS"];
+    const sections = [
+        {key: "HOME", value: 1}, 
+        {key: "ABOUT", value: 2}, 
+        {key: "PROJECTS", value: 3}, 
+        {key: "CONTACT",  value: 4},
+        {key: "CREDITS", value: 5}
+    ];
     return(
         <Fragment>
         <AnimatePresence>
@@ -19,12 +26,12 @@ export default function Popout(props: PopoutProps): JSX.Element {
                     <LayoutGroup>
                         {sections.map((section) => (
                             <motion.li
-                                key={section}
-                                className={sections[props.section - 1] == section ? `${styles.selected}` : ""}
-                                onClick={() => console.log("Change Section!")}
+                                key={section.key}
+                                className={props.realSection == section.value ? `${styles.selected}` : ""}
+                                onClick={() => props.navFunc(section.value)}
                                 layout
                             >
-                                {section}
+                                {section.key}
 
                             </motion.li>
                         ))}

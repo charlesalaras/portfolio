@@ -1,12 +1,15 @@
 import * as React from "react";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Filter from "../components/Filter";
 import ProjectList from "../components/ProjectList";
 import Overview from "../components/Overview";
 import { useStaticQuery, graphql } from "gatsby";
 import "../styles/projects.css";
 
-export default function Projects(): JSX.Element {
+interface sectionProps {
+    section: number
+}
+export default function Projects(props: sectionProps): JSX.Element {
     const [filter, setFilter] = useState({
         'motion-graphics': false,
         'video-production': false,
@@ -49,7 +52,12 @@ query MyQuery {
   }
 } 
     `);
-
+    const projectsRef = useRef() as React.MutableRefObject<HTMLDivElement>;
+    useEffect(() => {
+        if(props.section === 3) {
+            projectsRef.current.scrollIntoView({ behavior: "smooth" });
+        }
+    },[props.section]);
     const [search, setSearch] = useState("");
     const [selection, setSelection] = useState("");
     
@@ -61,7 +69,7 @@ query MyQuery {
     }
 
     return(
-        <div className="projects section">
+        <div ref={projectsRef} className="projects section">
         <div className="project-heading header">PROJECTS</div>
         <Filter updater={handleFilter} value={filter}/>
         <input 

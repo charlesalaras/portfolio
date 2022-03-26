@@ -13,7 +13,8 @@ import Contact from "./Contact";
 import Credits from "./Credits";
 
 export default function App(): JSX.Element {
-    const [section, setSection] = useState(1);
+    const [section, setSection] = useState(1); // Controlled by Scrolling
+    const [navSection, setnavSection] = useState(1); // Controlled by Navigation
     const { scrollYProgress } = useViewportScroll();
 
     useEffect(() => scrollYProgress.onChange(v => {
@@ -31,17 +32,17 @@ export default function App(): JSX.Element {
         }
         else if(v >= 0.8 && v <= 1) {
             return setSection(5);
-        }       
+        }
     }), [scrollYProgress]);
     return(
         <div className="app">
-            <NavBar section={section}/>
+            <NavBar scrollSection={section} navFunc={setnavSection}/>
             <Socials/>
-            <Landing/>
-            <About/>
-            <Projects/>
-            <Contact/>
-            <Credits/>
+            <Landing section={navSection}/>
+            <About section={navSection}/>
+            <Projects section={navSection}/>
+            <Contact section={navSection}/>
+            <Credits section={navSection}/>
         </div>
     );
 }
