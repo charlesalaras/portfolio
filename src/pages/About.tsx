@@ -22,7 +22,7 @@ export default function About(props: sectionProps): JSX.Element {
                     {"ABOUT"}
             </motion.div>
             <motion.div 
-                className="blank">
+                className="blank about-body">
                     {"Text goes here"}
             </motion.div>
             <InfoBox/>

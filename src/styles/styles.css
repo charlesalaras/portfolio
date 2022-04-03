@@ -4,15 +4,23 @@
     src: url("./concourse_c6_regular.woff");
 }
 @font-face {
+    font-family: "Concourse T7";
+    src: url("./concourse_t7_regular.woff");
+}
+@font-face {
     font-family: "Concourse T6";
     src: url("./concourse_t6_regular.woff");
 }
-
+@font-face {
+    font-family: "Concourse T3";
+    src: url("./concourse_t3_regular.woff");
+}
 html, body {
     margin: 0;
     padding: 0;
 }
 * {
+    font-family: "Concourse T3";
     color: white;
     box-sizing: border-box;
     scrollbar-color: #FFFFFF #1A1A1A;
@@ -53,6 +61,8 @@ html, body {
     z-index: 3;
 }
 .blank {
+    padding: 1em;
+    font-family: "Concourse T3";
     border: 4px solid white;
     border-radius: 14px;
 }
