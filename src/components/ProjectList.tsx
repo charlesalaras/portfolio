@@ -19,6 +19,7 @@ type ListElement = {
 
 export default function ProjectList(props: ProjectsProps): JSX.Element {
     // If Filters Enabled, Filter Data
+    const [currItem, setItem] = useState('null');
     const arr = (props.data).filter(calculateFilter);
     // Checks if Project should be displayed
     function calculateFilter(arrElement: ListElement): boolean {
@@ -45,7 +46,16 @@ export default function ProjectList(props: ProjectsProps): JSX.Element {
                     onClick={() => props.updater(project.node.slug)}
                 >
                     <i className={`${project.node.category}`}></i>
-                {project.node.title}
+                    <h1>{project.node.title}</h1>
+                    <p>{project.node.byline}</p>
+                    <p>{project.node.date}</p>
+                    <div
+                       onMouseEnter={() => setItem(project.node.slug)} 
+                    >
+                        <div>
+                        {currItem == project.node.slug ? project.node.media.preview : project.node.media.static}
+                        </div>
+                    </div>
                 </motion.div>
             ))}
             </AnimatePresence>
