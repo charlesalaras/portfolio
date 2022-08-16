@@ -49,7 +49,7 @@ html, body {
     /* Width Account for Scrollbar */
     width: 100%;
     height: 100vh;
-    background-image: url("./background1.svg");
+    background-image: url("./background.svg");
     background-size: contain;
 }
 .overlay {

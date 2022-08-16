@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 240 1080" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="a" data-name="actual" x1="1080" y1="1080" x2="1320" y2="1080" gradientTransform="translate(-960 1200) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#202124"/>
+    </linearGradient>
+    <linearGradient id="b" x1="0" x2="240" xlink:href="#a"/>
+    <linearGradient id="c" x1="206.04" y1="1148.04" x2="446.04" y2="1148.04" xlink:href="#a"/>
+    <linearGradient id="d" x1="872.15" y1="1148.04" x2="1112.15" y2="1148.04" xlink:href="#a"/>
+    <linearGradient id="e" x1="872.15" y1="1011.96" x2="1112.15" y2="1011.96" xlink:href="#a"/>
+    <linearGradient id="f" x1="206.04" y1="1011.96" x2="446.04" y2="1011.96" xlink:href="#a"/>
+  </defs>
+  <rect width="240" height="1080"/>
+  <polygon points="16.08 0 16.08 60 120 120 223.92 60 223.92 0 16.08 0" fill="url(#a)"/>
+  <polygon points="223.92 1020 120 960 16.08 1020 16.08 1080 223.92 1080 223.92 1020" fill="url(#b)"/>
+  <polygon points="136.08 813.96 136.08 933.96 240 993.96 240 753.96 136.08 813.96" opacity="0.5" fill="url(#c)"/>
+  <polygon points="136.08 147.85 136.08 267.85 240 327.85 240 87.85 136.08 147.85" opacity="0.5" fill="url(#d)"/>
+  <polygon points="0 87.85 0 327.85 103.92 267.85 103.92 147.85 0 87.85" opacity="0.5" fill="url(#e)"/>
+  <polygon points="0 753.96 0 993.96 103.92 933.96 103.92 813.96 0 753.96" opacity="0.5" fill="url(#f)"/>
+</svg>
