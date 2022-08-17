@@ -63,7 +63,7 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 .blank {
     padding: 1em;
@@ -75,12 +75,16 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 40%;
     height: 40%;
     border-radius: 25px;
     background-color: white;
     color: black !important;
     text-align: center;
+}
+.coloring {
+    color: black !important;
 }
 .exit {
     position: absolute;

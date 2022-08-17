@@ -45,12 +45,17 @@ export default function ProjectList(props: ProjectsProps): JSX.Element {
                     key={project.node.slug}
                     onClick={() => props.updater(project.node.slug)}
                 >
-                    <i className={`${project.node.category}`}></i>
+                <div className="project-icon">
+                <i className={`${project.node.category}`}></i>
+                </div>
+                <div className="project-details"> 
                     <h1>{project.node.title}</h1>
                     <p>{project.node.byline}</p>
                     <p>{project.node.date}</p>
+                </div>
                     <div
-                       onMouseEnter={() => setItem(project.node.slug)} 
+                       onMouseEnter={() => setItem(project.node.slug)}
+                       className="project-media"
                     >
                         <div>
                         {currItem == project.node.slug ? project.node.media.preview : project.node.media.static}

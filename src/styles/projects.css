@@ -118,10 +118,27 @@ button {
 }
 
 .project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   margin: auto;
   margin-top: 1%;
   width: 90%;
   height: 6em;
   border-radius: 1em;
   padding-left: 1%;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  line-height:0px;
+  word-wrap: break-word;
+}
+
+.project-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
