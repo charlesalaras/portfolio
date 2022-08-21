@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useEffect, useRef } from "react";
-import Hello from "../components/Hello";
+import Hello from "./Hello";
 import { motion } from "framer-motion";
 import "../styles/landing.css";
 

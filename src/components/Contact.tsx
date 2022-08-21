@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useEffect, useRef } from "react";
-import Form from "../components/Form";
+import Form from "./Form";
 import { motion } from "framer-motion";
 import "../styles/contact.css";
 

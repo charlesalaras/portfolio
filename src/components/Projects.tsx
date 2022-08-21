@@ -1,8 +1,8 @@
 import * as React from "react";
 import { useState, useEffect, useRef } from "react";
-import Filter from "../components/Filter";
-import ProjectList from "../components/ProjectList";
-import Overview from "../components/Overview";
+import Filter from "./Filter";
+import ProjectList from "./ProjectList";
+import Overview from "./Overview";
 import { useStaticQuery, graphql } from "gatsby";
 import "../styles/projects.css";
 

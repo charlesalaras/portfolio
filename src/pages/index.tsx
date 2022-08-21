@@ -6,11 +6,11 @@ import "../styles/styles.css";
 import NavBar from "../components/NavBar";
 import Socials from "../components/Socials";
 
-import Landing from "./Landing";
-import About from "./About";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import Credits from "./Credits";
+import Landing from "../components/Landing";
+import About from "../components/About";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
+import Credits from "../components/Credits";
 
 export default function App(): JSX.Element {
     const [section, setSection] = useState(1); // Controlled by Scrolling

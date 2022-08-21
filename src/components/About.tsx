@@ -1,7 +1,7 @@
 import * as React from "react";
 import {useEffect, useRef} from "react";
 import { motion } from "framer-motion";
-import InfoBox from "../components/InfoBox";
+import InfoBox from "./InfoBox";
 import "../styles/about.css";
 
 // Use StaticImage from gatsby
