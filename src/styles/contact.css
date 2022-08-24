@@ -40,3 +40,6 @@ input[type=submit] {
 label, input {
     color: #111111;
 }
+label {
+    font-family: "Concourse T3 Bold";
+}
