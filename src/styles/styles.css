@@ -100,3 +100,13 @@ html, body {
     padding: 5px;
     overflow: scroll;
 }
+button.close {
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 1em;
+    color: white;
+    background-color: black;
+    top: 10px;
+    left: 95%;
+}
