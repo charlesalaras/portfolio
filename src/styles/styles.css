@@ -92,9 +92,15 @@ html, body {
     color: black !important;
 }
 .exit {
-    position: absolute;
-    top: 5%;
-    left: 90%;
+    position: relative;
+    width: 2em;
+    height: 2em;
+    border-radius: 1em;
+    top: -15%;
+    left: 40%;
+    color: white;
+    filter: invert(100%);
+    background-color: white;
 }
 .about-bio {
     padding: 5px;
