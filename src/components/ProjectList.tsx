@@ -57,9 +57,7 @@ export default function ProjectList(props: ProjectsProps): JSX.Element {
                        onMouseEnter={() => setItem(project.node.slug)}
                        className="project-media"
                     >
-                        <div>
-                        {currItem == project.node.slug ? project.node.media.preview : project.node.media.static}
-                        </div>
+                        <img src={currItem == project.node.slug ?  project.node.media.preview : project.node.media.static}/>
                     </div>
                 </motion.div>
             ))}
