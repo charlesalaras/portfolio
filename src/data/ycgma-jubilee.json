@@ -1,0 +1,43 @@
+{
+   "slug": "ycgma-jubilee",
+   "category": "motion-graphics",
+   "title": "A Tribute to Your City Gave Me Asthma - Jubilee Line",
+   "byline": "A video dissecting Wilbur Soot's album 'Your City Gave Me Asthma'",
+   "date": "February 2022",
+   "media": {
+      "static": "./images/jubilee.png",
+      "preview": "./images/jubilee.webm",
+      "main": {
+         "type": "video",
+         "content": [
+             "https://youtube.com"
+         ]
+      },
+      "link": "https://www.youtube.com"
+   },
+   "description": "Lorem ipsum",
+   "tools": [
+      {
+         "icon": "./icons/premiere-pro.svg",
+         "name": "Premiere Pro"
+      },
+      {
+         "icon": "./icons/after-effects.svg",
+         "name": "After Effects"
+      }
+   ],
+   "notes": [
+      {
+         "icon": "./icons/heart.svg",
+         "note": "Created as a Passion Project"
+      },
+      {
+         "icon": "./icons/collection-fill.svg",
+         "note": "Part of a Series: A Tribute to Your City Gave Me Asthma"
+      },
+      {
+         "icon": "./icons/explicit-fill.svg",
+         "note": "May contain explicit content"
+      }
+   ]
+}

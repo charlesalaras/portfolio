@@ -1,0 +1,37 @@
+{
+   "slug": "bluesyn",
+   "category": "programming",
+   "title": "BlueSyn Editor Theme",
+   "byline": "Monochromatic Sublime Text 3 Theme",
+   "date": "August 2020",
+   "media": {
+      "static": "./images/bluesyn.png",
+      "preview": "./images/bluesyn.png",
+      "main": {
+         "type": "slideshow",
+         "content": [
+            "./images/bluesyn1.png",
+            "./images/bluesyn2.png",
+            "./images/bluesyn3.png"
+         ]
+      },
+      "link": "https://www.github.com/charlesalaras/bluesyn"
+   },
+   "description": "Lorem ipsum",
+   "tools": [
+      {
+         "icon": "./icons/sublime.svg",
+         "name": "Sublime Text 3"
+      },
+      {
+         "icon": "./icons/json.svg",
+         "name": "JSON"
+      }
+   ],
+   "notes": [
+      {
+         "icon": "./icons/heart-fill.svg",
+         "note": "Created as a Passion Project"
+      }
+   ]
+}

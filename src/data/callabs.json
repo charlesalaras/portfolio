@@ -1,0 +1,49 @@
+{
+   "slug": "callabs",
+   "category": "web-dev",
+   "title": "Cal Labs Data Analysis Web Application",
+   "byline": "Web app to analyze student performance",
+   "date": "February 2022",
+   "media": {
+      "static": "./images/callabs.png",
+      "preview": "./images/callabs.webm",
+      "main": {
+         "type": "slideshow",
+         "content": [
+            "./images/callabs1.png",
+            "./images/callabs2.png",
+            "./images/callabs3.png"
+         ]
+      },
+      "link": "https://github.com/charlesalaras/cal-labs-dataviz"
+   },
+   "description": "Lorem ipsum",
+   "tools": [
+      {
+         "icon": "./icons/plotly.svg",
+         "name": "Plotly"
+      },
+      {
+         "icon": "./icons/python.svg",
+         "name": "Python"
+      },
+      {
+         "icon": "./icons/flask.svg",
+         "name": "Flask"
+      },
+      {
+         "icon": "./icons/sqlite.svg",
+         "name": "SQLite"
+      }
+   ],
+   "notes": [
+      {
+         "icon": "./icons/hammer.svg",
+         "note": "Created for work"
+      },
+      {
+         "icon": "./icons/node-plus-fill.svg",
+         "note": "Completed as a group"
+      }
+   ]
+}

@@ -1,0 +1,51 @@
+{
+   "slug": "mask-off",
+   "category": "web-dev",
+   "title": "Mask Off - COVID-19 Tracker",
+   "byline": "Geospatial COVID-19 Tracker created for Cutie Hack 2020",
+   "date": "November 2020",
+   "media": {
+      "static": "./images/maskoff.png",
+      "preview": "./images/maskoff.webm",
+      "main": {
+         "type": "video",
+         "content": [
+            "https://www.youtube.com"
+         ]
+      },
+      "link": "https://www.github.com/charlesalaras/mask-off"
+   },
+   "description": "Lorem ipsum",
+   "tools": [
+      {
+         "icon": "./icons/bootstrap-fill.svg",
+         "name": "Bootstrap"
+      },
+      {
+         "icon": "./icons/google-maps.svg",
+         "name": "Google Maps"
+      },
+      {
+         "icon": "./icons/expressjs.svg",
+         "name": "ExpressJS"
+      },
+      {
+         "icon": "./icons/nodejs.svg",
+         "name": "NodeJS"
+      },
+      {
+         "icon": "./icons/linode.svg",
+         "name": "Linode"
+      }
+   ],
+   "notes": [
+      {
+         "icon": "./icons/calendar-date-fill.svg",
+         "note": "Created for Special Event"
+      },
+      {
+         "icon": "./icons/node-plus-fill.svg",
+         "note": "Completed as a group"
+      }
+   ]
+}

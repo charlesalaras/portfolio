@@ -1,0 +1,45 @@
+{
+   "slug": "cs100-final",
+   "category": "programming",
+   "title": "Software Construction Final Project - Questclad",
+   "byline": "Text-based shell RPG created as Software Construction final",
+   "date": "May 2021",
+   "media": {
+      "static": "./images/cs100final.png",
+      "preview": "./images/cs100final.webm",
+      "main": {
+         "type": "slideshow",
+         "content": [
+            "./images/cs100final1.png",
+            "./images/cs100final2.png",
+            "./images/cs100final3.png"
+         ]
+      },
+      "link": "https://github.com/charlesalaras/questclad"
+   },
+   "description": "Lorem ipsum",
+   "tools": [
+      {
+         "icon": "./icons/c.svg",
+         "name": "C"
+      },
+      {
+         "icon": "./icons/cplusplus.svg",
+         "name": "C++"
+      },
+      {
+         "icon": "./icons/terminal-fill.svg",
+         "name": "ncurses"
+      }
+   ],
+   "notes": [ 
+      {
+         "icon": "./icons/terminal-fill.svg",
+         "note": "Created for School"
+      },
+      {
+         "icon": "./icons/node-plus-fill.svg",
+         "note": "Completed as a group"
+      }
+   ]
+}

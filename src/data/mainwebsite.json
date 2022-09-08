@@ -1,0 +1,45 @@
+{
+   "slug": "mainwebsite",
+   "category": "web-dev",
+   "title": "This Website!",
+   "byline": "Portfolio website for projects and contact",
+   "date": "March 2022",
+   "media": {
+      "static": "./images/website.png",
+      "preview": "./images/website.webm",
+      "main": {
+         "type": "slideshow",
+         "content": [
+            "./images/website1.png",
+            "./images/website2.png",
+            "./images/website3.png"
+         ]
+      },
+      "link": "https://localhost:8000"
+   },
+   "description": "Lorem ipsum",
+   "tools": [
+      {
+         "icon": "./icons/gatsby.svg",
+         "name": "GatsbyJS"
+      },
+      {
+         "icon": "./icons/react.svg",
+         "name": "React"
+      },
+      {
+         "icon": "./icons/typescript.svg",
+         "name": "TypeScript"
+      },
+      {
+         "icon": "./icons/postcss.svg",
+         "name": "PostCSS"
+      }
+   ],
+   "notes": [
+      {
+         "icon": "./icons/heart.svg",
+         "note": "Created as a Passion Project"
+      }
+   ]
+}

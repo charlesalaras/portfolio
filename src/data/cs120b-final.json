@@ -1,0 +1,39 @@
+{
+   "slug": "cs120b-final",
+   "category": "hardware",
+   "title": "Embedded Systems Final Project - Game",
+   "byline": "Embedded system game created for embedded systems final",
+   "date": "May 2021",
+   "media": {
+      "static": "./images/cs120bfinal.png",
+      "preview": "./images/cs120bfinal.webm",
+      "main": {
+         "type": "video",
+         "content": [
+             "https://www.youtube.com"
+         ]
+      },
+      "link": "https://github.com/charlesalaras/friday-night-hardware"
+   },
+   "description": "Lorem ipsum",
+   "tools": [
+      {
+         "icon": "./icons/c.svg",
+         "name": "C"
+      },
+      {
+         "icon": "./icons/cplusplus.svg",
+         "name": "C++"
+      },
+      {
+         "icon": "./icons/python.svg",
+         "name": "Python"
+      }
+   ],
+   "notes": [
+      {
+         "icon": "./icons/mortarboard-fill.svg",
+         "note": "Created for School"
+      }
+   ]
+}
