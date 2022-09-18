@@ -35,7 +35,7 @@ export default function Form(): JSX.Element {
                 <div style={{height: "60%"}}>
                 <label htmlFor="body">Message Body</label>
                 <br></br>
-                    <textarea placeholder="Enter message here..."></textarea>
+                    <textarea style={{color: "black"}} placeholder="Enter message here..."></textarea>
                 </div>
                 <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
                 <input type="submit" value="Submit"/>

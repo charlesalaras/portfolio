@@ -29,6 +29,13 @@
   grid-area: about-img;
 }
 
+.inner-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 14px;
+}
+
 .about-bio {
   padding: 1em;
   height: 100%;

@@ -160,7 +160,7 @@ button {
   height: 100%;
   overflow: hidden;
   word-wrap: break-word;
-  width: 60%;
+  width: 85%;
 }
 .project-icon {
     display: flex;
@@ -168,12 +168,6 @@ button {
     justify-content: center;
     align-items: center;
     min-height: 100%;
+    width: 15%;
 }
-.project-media {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-    height: 100%;
-}
+

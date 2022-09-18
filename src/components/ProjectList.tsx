@@ -53,12 +53,6 @@ export default function ProjectList(props: ProjectsProps): JSX.Element {
                     <p>{project.node.byline}</p>
                     <p>{project.node.date}</p>
                 </div>
-                    <div
-                       onMouseEnter={() => setItem(project.node.slug)}
-                       className="project-media"
-                    >
-                        <img src={currItem == project.node.slug ?  project.node.media.preview : project.node.media.static}/>
-                    </div>
                 </motion.div>
             ))}
             </AnimatePresence>
