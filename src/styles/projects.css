@@ -171,7 +171,7 @@ button {
     width: 15%;
 }
 .inset-icon {
-    width: 20px;
+    padding-right: 5px;
     height: 20px;
     filter: invert(1);
 }

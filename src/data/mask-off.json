@@ -18,33 +18,33 @@
    "description": "Lorem ipsum",
    "tools": [
       {
-         "icon": "./icons/bootstrap-fill.svg",
+         "icon": "https://raw.githubusercontent.com/twbs/icons/main/icons/bootstrap-fill.svg",
          "name": "Bootstrap"
       },
       {
-         "icon": "./icons/google-maps.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlemaps.svg",
          "name": "Google Maps"
       },
       {
-         "icon": "./icons/expressjs.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/express.svg",
          "name": "ExpressJS"
       },
       {
-         "icon": "./icons/nodejs.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/nodedotjs.svg",
          "name": "NodeJS"
       },
       {
-         "icon": "./icons/linode.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/linode.svg",
          "name": "Linode"
       }
    ],
    "notes": [
       {
-         "icon": "./icons/calendar-date-fill.svg",
+         "icon": "https://raw.githubusercontent.com/twbs/icons/main/icons/calendar-date-fill.svg",
          "note": "Created for Special Event"
       },
       {
-         "icon": "./icons/node-plus-fill.svg",
+         "icon": "https://raw.githubusercontent.com/twbs/icons/main/icons/node-plus-fill.svg",
          "note": "Completed as a group"
       }
    ]

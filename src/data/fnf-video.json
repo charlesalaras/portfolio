@@ -15,24 +15,24 @@
       },
       "link": "https://www.youtube.com/watch?v=s9EOe7yraE4"
    },
-   "description": "Lorem ipsum",
+   "description": "This video is a summarization of the build process for one of my final projects. This final project was constructed for my basic embedded systems class. In the video, I try to explain the important concepts that I learned throughout the year, and the challenges I faced while creating the project. This includes discussion of frequencies in waves, state machines, and how electrical components work together with a microcontroller.",
    "tools": [
       {
-         "icon": "./icons/premiere-pro.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/adobepremierepro.svg",
          "name": "Premiere Pro"
       },
       {
-         "icon": "./icons/after-effects.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/adobeaftereffects.svg",
          "name": "After Effects"
       }
    ],
    "notes": [
       {
-         "icon": "./icons/heart.svg",
+         "icon": "https://raw.githubusercontent.com/twbs/icons/main/icons/heart.svg",
          "note": "Created as a Passion Project"
       },
       {
-         "icon": "./icons/explicit-fill.svg",
+         "icon": "https://raw.githubusercontent.com/twbs/icons/main/icons/explicit-fill.svg",
          "note": "May contain explicit content"
       }
    ]

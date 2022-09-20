@@ -17,28 +17,28 @@
       },
       "link": "https://github.com/charlesalaras/questclad"
    },
-   "description": "Lorem ipsum",
+   "description": "This final project was created as a three person team for CS100, my software construction class at UCR. The class emphasizes the importance of version control systems like Git. The team had a freedom to choose what to make, as long as we implemented design patterns learned in the course. We created OMT diagrams for the project, and illustrated usage of the Visitor pattern and Interface pattern. It was created entirely using ncurses, and tested extensively using the Google Test Suite. The team went through roughly three sprints and had daily standup meetings to complete the project.",
    "tools": [
       {
-         "icon": "./icons/c.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/c.svg",
          "name": "C"
       },
       {
-         "icon": "./icons/cplusplus.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/cplusplus.svg",
          "name": "C++"
       },
       {
-         "icon": "./icons/terminal-fill.svg",
+         "icon": "https://raw.githubusercontent.com/twbs/icons/main/icons/terminal-fill.svg",
          "name": "ncurses"
       }
    ],
    "notes": [ 
       {
-         "icon": "./icons/terminal-fill.svg",
+         "icon": "https://raw.githubusercontent.com/twbs/icons/main/icons/mortarboard-fill.svg",
          "note": "Created for School"
       },
       {
-         "icon": "./icons/node-plus-fill.svg",
+         "icon": "https://raw.githubusercontent.com/twbs/icons/main/icons/node-plus-fill.svg",
          "note": "Completed as a group"
       }
    ]

@@ -17,20 +17,20 @@
       },
       "link": "https://www.github.com/charlesalaras/bluesyn"
    },
-   "description": "Lorem ipsum",
+   "description": "A monochromatic theme I created for Sublime Text 3, when I used it.",
    "tools": [
       {
-         "icon": "./icons/sublime.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/sublimetext.svg",
          "name": "Sublime Text 3"
       },
       {
-         "icon": "./icons/json.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/json.svg",
          "name": "JSON"
       }
    ],
    "notes": [
       {
-         "icon": "./icons/heart-fill.svg",
+         "icon": "https://raw.githubusercontent.com/twbs/icons/main/icons/heart-fill.svg",
          "note": "Created as a Passion Project"
       }
    ]
