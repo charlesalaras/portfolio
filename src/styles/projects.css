@@ -170,4 +170,13 @@ button {
     min-height: 100%;
     width: 15%;
 }
+.inset-icon {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
 
+.innerView {
+    border-radius: 14px;
+    height: 100%;
+}
