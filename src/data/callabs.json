@@ -17,32 +17,32 @@
       },
       "link": "https://github.com/charlesalaras/cal-labs-dataviz"
    },
-   "description": "Lorem ipsum",
+   "description": "This was the first iteration of a feedback application created for a California Learning Labs grant. The workflow of the application is to have a login for a user dashboard. If the user is an instructor, we show aggregate class data, while students receive aggregate data of their own performance. Both types of users are able to view their performance in relation to learning objectives and visualizes them using plotly. As the scope of the project grew, we refactored this application to be a fully fledged platform.",
    "tools": [
       {
-         "icon": "./icons/plotly.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/plotly.svg",
          "name": "Plotly"
       },
       {
-         "icon": "./icons/python.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/python.svg",
          "name": "Python"
       },
       {
-         "icon": "./icons/flask.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/flask.svg",
          "name": "Flask"
       },
       {
-         "icon": "./icons/sqlite.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/sqlite.svg",
          "name": "SQLite"
       }
    ],
    "notes": [
       {
-         "icon": "./icons/hammer.svg",
+         "icon": "https://raw.githubusercontent.com/twbs/icons/main/icons/hammer.svg",
          "note": "Created for work"
       },
       {
-         "icon": "./icons/node-plus-fill.svg",
+         "icon": "https://raw.githubusercontent.com/twbs/icons/main/icons/node-plus-fill.svg",
          "note": "Completed as a group"
       }
    ]

@@ -10,12 +10,12 @@
       "main": {
          "type": "video",
          "content": [
-            "https://www.youtube.com"
+            "https://www.youtube.com/watch?v=tEaXRW3rbA4"
          ]
       },
       "link": "https://www.github.com/charlesalaras/mask-off"
    },
-   "description": "Lorem ipsum",
+   "description": "This website was created as a 4 person team for Cutie Hack 2020 at UCR. It was my first official dive into web development. I worked mostly on the backend, and learned about routing in ExpressJS to ensure linking worked correctly. It was also the first time I set up a web server.",
    "tools": [
       {
          "icon": "https://raw.githubusercontent.com/twbs/icons/main/icons/bootstrap-fill.svg",

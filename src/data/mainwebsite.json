@@ -17,28 +17,28 @@
       },
       "link": "https://localhost:8000"
    },
-   "description": "Lorem ipsum",
+   "description": "This was my first official website I created. I used it as a way to learn React and Typescript, along with testing a large scale framework like GatsbyJS. I borrowed a lot of ideas from other websites for design, but all the HTML and CSS is handwritten. Most of the designs in the website was created and prototyped by me.",
    "tools": [
       {
-         "icon": "./icons/gatsby.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/gatsby.svg",
          "name": "GatsbyJS"
       },
       {
-         "icon": "./icons/react.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/react.svg",
          "name": "React"
       },
       {
-         "icon": "./icons/typescript.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/typescript.svg",
          "name": "TypeScript"
       },
       {
-         "icon": "./icons/postcss.svg",
+         "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/postcss.svg",
          "name": "PostCSS"
       }
    ],
    "notes": [
       {
-         "icon": "./icons/heart.svg",
+         "icon": "https://raw.githubusercontent.com/twbs/icons/main/icons/heart-fill.svg",
          "note": "Created as a Passion Project"
       }
    ]
