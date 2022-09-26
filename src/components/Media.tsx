@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Carousel from "react-bootstrap/Carousel";
+import * as React from "react";
 
 interface MediaProps {
     content: string[]

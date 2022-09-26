@@ -15,12 +15,12 @@ interface OVProps {
 export default function Overview(props: OVProps): JSX.Element {
 
     const renderMedia = () => {
-        const mediaType = props.view.media.type;
+        const mediaType = props.view.node.media.main.type;
         if(mediaType == 'slideshow') {
-            return <Slideshow content={props.view.media}></Slideshow>;
+            return <Slideshow content={props.view.node.media.main.content}></Slideshow>;
         }
         else if(mediaType == 'video') {
-            return <Video content={props.view.media}></Video>;
+            return <Video content={props.view.node.media.main.content}></Video>;
         }
         return null;
     }
@@ -44,7 +44,7 @@ export default function Overview(props: OVProps): JSX.Element {
 </svg>
                     </button>
                     <h1><a href={props.view.node.link}>{props.view.node.title}</a></h1>
-                    {renderMedia}
+                    {renderMedia()}
                     <h2>About</h2>
                     <p>{props.view.node.description}</p>
                     <h2>Tools</h2>

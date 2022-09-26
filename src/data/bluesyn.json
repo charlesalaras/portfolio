@@ -10,7 +10,7 @@
       "main": {
          "type": "slideshow",
          "content": [
-            "./images/bluesyn1.png",
+            "https://github.com/charlesalaras/BlueSyn/raw/master/BlueJ.jpg",
             "./images/bluesyn2.png",
             "./images/bluesyn3.png"
          ]
