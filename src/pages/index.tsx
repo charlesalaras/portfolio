@@ -1,8 +1,9 @@
 import * as React from "react";
 import { useEffect, useState } from "react";
-import { motion, useViewportScroll } from "framer-motion";
+import { motion, useViewportScroll, AnimatePresence } from "framer-motion";
 import "../styles/styles.css";
 
+import Warning from "../components/Warning";
 import NavBar from "../components/NavBar";
 import Socials from "../components/Socials";
 
@@ -13,6 +14,7 @@ import Contact from "../components/Contact";
 import Credits from "../components/Credits";
 
 export default function App(): JSX.Element {
+    const [warning, setWarning] = useState(true);
     const [section, setSection] = useState(1); // Controlled by Scrolling
     const [navSection, setnavSection] = useState(1); // Controlled by Navigation
     const { scrollYProgress } = useViewportScroll();
@@ -38,6 +40,9 @@ export default function App(): JSX.Element {
         <div className="app">
             <NavBar scrollSection={section} navFunc={setnavSection}/>
             <Socials/>
+            <AnimatePresence>
+            {warning ? <Warning closeFunc={setWarning}/> : null}
+            </AnimatePresence>
             <Landing section={navSection}/>
             <About section={navSection}/>
             <Projects section={navSection}/>
